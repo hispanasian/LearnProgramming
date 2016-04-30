@@ -15,5 +15,7 @@ This project will use [scala](http://www.scala-lang.org/) as the primary program
 
 This project will be using [IntelliJ](https://www.jetbrains.com/idea/) as the IDE (Integrated Developemnt Environment). This is a great IDE and best of all it's free! However, you can use whichever IDE you would like. If you're just starting, don't worry too much about this. Simply download the IDE (it's free!) or just wait until the next lesson where we'll get you started.
 
+There will also be references to the wiki for any more in depth explanations or walk throughs.
+
 ###Format
 Each lesson will be a git branch with the lesson plan and instructions documented in the README.md file which you can find in the root of every project (just like this one). At the end of the document, there the next lesson branch will be provided. This project will make plenty of use of outside resources (we're not trying to re-invent the wheel) but please feel free to make an issue if you don't think something is clear or enough to get you through the lesson.
