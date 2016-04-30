@@ -3,7 +3,8 @@
 The purpose of this projet is to teach you how to program. There are plenty of other resources out there:
 - [codecademny](https://www.codecademy.com/)
 - [computer-science](https://github.com/open-source-society/computer-science)
-- [code school](https://www.codeschool.com/learn)
+- [code school](https://www.codeschool.com/learn
+
 This is just another resource you can use. 
 
 ###Goal
