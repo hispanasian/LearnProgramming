@@ -25,7 +25,7 @@ Now clone this repsository. There are multiple ways you can do this. You can eit
 The command line (Windows) and terminal (OS X/Linux) have different commands, there are some similar ones. Thankfully, they share similar navigation commands. Now, open up your CLI (command line interface) and do the following commands
 ```
 cd '/path/to/where/you/want/to/put/the/project'
-git clone https://github.com/**__YOUR_USERNAME__**/LearnProgramming.git
+git clone https://github.com/YOUR_USERNAME/LearnProgramming.git
 cd LearnProgramming
 git remote add upstream https://github.com/hispanasian/LearnProgramming.git
 ```
