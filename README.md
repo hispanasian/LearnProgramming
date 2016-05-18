@@ -1,4 +1,4 @@
-# 1.1 Setup Environment
+# 1.2 Setup Environment
 ###Goal
 The purpose of this lesson is to get your environment (your computer) ready to start programming. To do this, we'll need to download a couple programs. Don't worry though, they're all free.
 
