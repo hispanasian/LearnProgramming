@@ -14,7 +14,7 @@ Now it's time to [download](http://www.scala-lang.org/download/) and install Sca
 ###Get IntelliJ
 Finally, you'll want to [download](https://www.jetbrains.com/idea/) and install IntelliJ. This will be our IDE for Scala. During the install process, make sure you download the Scala plugin. 
 
-Once you've installed IntelliJ, you'll want to open up this project. To do that, simply open this project from InelliJ. You may need to tell IntelliJ where to find the JDK and Scala. use [this](http://nanxiao.me/en/getting-started-with-scala-in-intellij-idea-14-1/)
+-Once you've installed IntelliJ, you'll want to open up this project. To do that, simply open this project from InelliJ. You may need to tell IntelliJ where to find the JDK and Scala. use [this](http://nanxiao.me/en/getting-started-with-scala-in-intellij-idea-14-1/) guide to help you. You can just create a new project if that's easiest for you.
 
 ###Nex Lesson
 Now you're ready to move on to the next lesson where we'll create your first program! First, checkout the next lesson:
