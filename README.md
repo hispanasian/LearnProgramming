@@ -1,4 +1,4 @@
-# 1.3 Hello WOrld
+# 1.3 Hello World
 ###Goal
 The purpose of this lesson is to get you to right your first program. 
 
@@ -33,6 +33,11 @@ To run HelloWorld in SBT, open up your terminal/command line and do the followin
 cd /path/to/learnprogramming
 sbt
 run
+```
+
+To exit SBT, type:
+```
+exit
 ```
 
 If you were successfull, you should see:
