@@ -3,10 +3,10 @@
 The purpose of this lesson is to get you to right your first program. 
 
 ##Lesson
-###Create Your File
-You'll notice that this branch is not as bare as our previous lessons. You should find a src/main/scala/ directory and a project/ directory with a file called build.properties in project/. You don't actually need to have a src/main/scala/ folder or a project/ folder, but it's nice to organize our files. Don't worry about the project/ directory for now and just focus on src/main/scala/.
+###Basic Project Structure
+You'll notice that this branch is not as bare as our previous lessons. You should find a src/main/scala/ directory with a file called HelloWorld.scala and a project/ directory with a file called build.properties in project/. You don't actually need to have a src/main/scala/ folder or a project/ folder, but it's nice to organize our files. Don't worry about the project/ directory for now and just focus on src/main/scala/HelloWorld.scala.
 
-Typically (in a scala project), scala code will be housed in the src/main/scala/ directory. You'll want to create a new file in src/main/scala/ called HelloWorld.scala. This is the file that will hold the code for your first program.
+Typically (in a scala project), scala code will be housed in the src/main/scala/ directory. You'll want to open the file src/main/scala/HelloWorld.scala. This is the file that will hold the code for your first program.
 
 ###Write Some Code
 Now that your file has been created, you'll want to put something in it! I suggest you follow the Hello World [guide](http://www.scala-lang.org/documentation/getting-started.html) on the Scala page as we'll be implementing this program. 
