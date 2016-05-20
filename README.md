@@ -15,6 +15,7 @@ Here's what the program does: It will print the string (essentially text) to a w
 
 ###Run The Program
 Once you've actually written this code, you'll have two ways to run it:
+
 1. Run the code through the IntelliJ IDE
 2. Run the code through SBT (Scala Build Tool) 
 
