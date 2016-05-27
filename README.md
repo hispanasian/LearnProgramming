@@ -1,6 +1,6 @@
 # 1.3 Hello World
 ###Goal
-The purpose of this lesson is to get you to right your first program. 
+The purpose of this lesson is to get you to write your first program. 
 
 ##Lesson
 ###Basic Project Structure
