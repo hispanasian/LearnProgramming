@@ -20,6 +20,6 @@ Finally, you'll want to [download](https://www.jetbrains.com/idea/) and install 
 Now you're ready to move on to the next lesson where we'll create your first program! First, checkout the next lesson:
 ```
 git fetch upstream lesson/1.3_hello_world
-git checkout -b upstream/lesson/1.3_hello_world lesson/1.3_hello_world
+git checkout -b lesson/1.3_hello_world upstream/lesson/1.3_hello_world
 ```
 Now head on over to the next lesson: [Hello World](https://github.com/hispanasian/LearnProgramming/tree/lesson/1.3_hello_world)
