@@ -34,6 +34,7 @@ So what exactly did you just do? You've just downloaded your forked repository o
 ###Nex Lesson
 Now you're ready to move on to the next lesson where we'll get your computer set up to start programming! First, checkout the next lesson:
 ```
-git checkout upstream lesson/1.2_setup_environment
+git fetch upstream lesson/1.2_setup_environment
+git checkout -b lesson/1.2_setup_environment upstream/lesson/1.2_setup_environment
 ```
 Now head on over to the next lesson: [Setup Environment](https://github.com/hispanasian/LearnProgramming/tree/lesson/1.2_setup_environment)
