@@ -59,12 +59,14 @@ This is a **_method_** declaration for the _HelloWorld_ **_object_**. It says th
 ###Solution
 If you have trouble with this lesson, you can check the solution:
 ```
-git checkout upstream solution/1.3_hello_world
+git fetch upstream solution/1.3_hello_world
+git checkout -b upstream/solution/1.3_hello_world solution/1.3_hello_world
 ```
 
 ###Nex Lesson
 Now you're ready to move on to the next lesson where we'll get your computer set up to start programming! First, checkout the next lesson:
 ```
-git checkout upstream lesson/1.2_setup_environment
+git fetch upstream lesson/1.2_setup_environment
+git checkout -b upstream/lesson/1.2_setup_environment lesson/1.2_setup_environment
 ```
 Now head on over to the next lesson: [Setup Environment](https://github.com/hispanasian/LearnProgramming/tree/lesson/1.2_setup_environment)
