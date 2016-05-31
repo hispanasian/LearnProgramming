@@ -7,7 +7,7 @@ README.MD
 .idea/modules/
 .idea/.name
 .idea/*.xml
-!.idea/vcs.xml
+.idea/vcs.xml
 /classes
 /dist
 /out

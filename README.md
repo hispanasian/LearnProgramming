@@ -1,6 +1,6 @@
 # 1.3 Hello World
 ###Goal
-The purpose of this lesson is to get you to right your first program. 
+The purpose of this lesson is to get you to write your first program. 
 
 ##Lesson
 ###Basic Project Structure
@@ -59,12 +59,14 @@ This is a **_method_** declaration for the _HelloWorld_ **_object_**. It says th
 ###Solution
 If you have trouble with this lesson, you can check the solution:
 ```
-git checkout upstream solution/1.3_hello_world
+git fetch upstream solution/1.3_hello_world
+git checkout -b solution/1.3_hello_world upstream/solution/1.3_hello_world
 ```
 
-###Nex Lesson
+###Next Lesson
 Now you're ready to move on to the next lesson where we'll get your computer set up to start programming! First, checkout the next lesson:
 ```
-git checkout upstream lesson/1.2_setup_environment
+git fetch upstream lesson/2.1_Intro_to_programming
+git checkout -b lesson/2.1_Intro_to_programming upstream/lesson/2.1_Intro_to_programming
 ```
-Now head on over to the next lesson: [Setup Environment](https://github.com/hispanasian/LearnProgramming/tree/lesson/1.2_setup_environment)
+Now head on over to the next lesson: [Intro to Programming](https://github.com/hispanasian/LearnProgramming/tree/lesson/2.1_Intro_to_programming)
