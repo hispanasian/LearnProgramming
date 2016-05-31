@@ -16,7 +16,7 @@ Finally, you'll want to [download](https://www.jetbrains.com/idea/) and install 
 
 -Once you've installed IntelliJ, you'll want to open up this project. To do that, simply open this project from InelliJ. You may need to tell IntelliJ where to find the JDK and Scala. use [this](http://nanxiao.me/en/getting-started-with-scala-in-intellij-idea-14-1/) guide to help you. You can just create a new project if that's easiest for you.
 
-###Nex Lesson
+###Next Lesson
 Now you're ready to move on to the next lesson where we'll create your first program! First, checkout the next lesson:
 ```
 git fetch upstream lesson/1.3_hello_world
