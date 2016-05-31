@@ -31,7 +31,7 @@ git remote add upstream https://github.com/hispanasian/LearnProgramming.git
 ```
 So what exactly did you just do? You've just downloaded your forked repository of LearnCoding onto you computer to /path/to/where/you/want/to/put/the/project/LearnProgramming. You then added the original repository for LearnProgramming as a remote to your local git and called it *upstream*. 
 
-###Nex Lesson
+###Next Lesson
 Now you're ready to move on to the next lesson where we'll get your computer set up to start programming! First, checkout the next lesson:
 ```
 git fetch upstream lesson/1.2_setup_environment
