@@ -63,7 +63,7 @@ git fetch upstream solution/1.3_hello_world
 git checkout -b solution/1.3_hello_world upstream/solution/1.3_hello_world
 ```
 
-###Nex Lesson
+###Next Lesson
 Now you're ready to move on to the next lesson where we'll get your computer set up to start programming! First, checkout the next lesson:
 ```
 git fetch upstream lesson/1.2_setup_environment
