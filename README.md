@@ -66,7 +66,7 @@ git checkout -b solution/1.3_hello_world upstream/solution/1.3_hello_world
 ###Next Lesson
 Now you're ready to move on to the next lesson where we'll get your computer set up to start programming! First, checkout the next lesson:
 ```
-git fetch upstream lesson/1.2_setup_environment
-git checkout -b lesson/1.2_setup_environment upstream/lesson/1.2_setup_environment
+git fetch upstream lesson/2.1_Intro_to_programming
+git checkout -b lesson/2.1_Intro_to_programming upstream/lesson/2.1_Intro_to_programming
 ```
-Now head on over to the next lesson: [Setup Environment](https://github.com/hispanasian/LearnProgramming/tree/lesson/1.2_setup_environment)
+Now head on over to the next lesson: [Intro to Programming](https://github.com/hispanasian/LearnProgramming/tree/lesson/2.1_Intro_to_programming)
