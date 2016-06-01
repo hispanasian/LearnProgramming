@@ -1,67 +1,30 @@
-# 1.3 Hello World
+#2.1 Intro to Programming
 ###Goal
-The purpose of this lesson is to get you to write your first program. 
+
+The purpose of this section is to get you acquainted with some basic programming concepts. The lesson will be heavily based off of this [Scala Tutorial](http://scalatutorials.com/tour/#). I highly recommend it so you can get a basic understanding of some key programming concepts.
 
 ##Lesson
-###Basic Project Structure
-You'll notice that this branch is not as bare as our previous lessons. You should find a src/main/scala/ directory with a file called HelloWorld.scala and a project/ directory with a file called build.properties in project/. You don't actually need to have a src/main/scala/ folder or a project/ folder, but it's nice to organize our files. Don't worry about the project/ directory for now and just focus on src/main/scala/HelloWorld.scala.
-
-Typically (in a scala project), scala code will be housed in the src/main/scala/ directory. You'll want to open the file src/main/scala/HelloWorld.scala. This is the file that will hold the code for your first program.
-
-###Write Some Code
-Now that your file has been created, you'll want to put something in it! I suggest you follow the Hello World [guide](http://www.scala-lang.org/documentation/getting-started.html) on the Scala page as we'll be implementing this program. 
-
-Here's what the program does: It will print the string (essentially text) to a window. In this case, it will print "Hello, world!" to a window. Simple!
-
-###Run The Program
-Once you've actually written this code, you'll have two ways to run it:
-
-1. Run the code through the IntelliJ IDE
-2. Run the code through SBT (Scala Build Tool) 
-
-####IntelliJ
-If you're usinng an IDE, it's probably best to use it to build and run the code. To run the code in IntelliJ, you can:
-1. Click the green "Play" button
-2. shift + F10
-2. alt + shift + F10
-
-####SBT
-I prefer to use SBT to build and run my projects, but it might not be the most comfortable thing for a beginner because you'll have to use the command line. SBT is a tool provided by the scala language that (as the name implies) helps with building your project. To learn more about SBT, you can check out the [documentation](http://www.scala-sbt.org/0.13/docs/index.html) or you can just check out a simple [hello world](http://www.scala-sbt.org/0.12.4/docs/Getting-Started/Hello.html) example.
-
-To run HelloWorld in SBT, open up your terminal/command line and do the following:
+###Scala Interpreter
+One of the cool things about the java programming language is that it comes with an interpreter. Your typical high level language (java and c++) does not have an interpreter as part of the language. What is an interpreter? Well, open up your CLI and type:
 ```
-cd /path/to/learnprogramming
-sbt
-run
+scala
 ```
+That's it. You are now in the scala interpreter. In there, you can type in commands as if you were writing a programming and the interpreter will execute those commands.
 
-To exit SBT, type:
+For example, try
 ```
-exit
+var x = 5
 ```
-
-If you were successfull, you should see:
-Hello, world!
-printed to your screen. Congratulations! You've created your first program!
-
-###Overview
-You might be wondering now, "What did I just write? What is 'obeject'? What is 'main'? What is 'def'?" Don't worry. We'll get into all these things. I'll try to give you a brief introduction to some of these things that you just wrote, but don't get hung up on it. As you progress, you'll begin to understand programming a bit more and you'll start to grasp what all this stuff is.
-
-####println
-println is a command that the scala language provides to you. This is the command that prints "Hello, world!" to the window. Try playing with it. Change the text between the quotes and try re-reunning the program. You should see the text change to whatever **_argument_** you gave the println **_function_**. 
-
-####def main
-```scala
-def main(args: Array[String]): Unit =
+The interpreter will respond with
 ```
-This is a **_method_** declaration for the _HelloWorld_ **_object_**. It says that HelloWorld will support a **_method_** called _main_ which takes in a signle **_argument_** called **_args_** which is an **_Array_** of type **_String_**. This method will return a **_Unit_** when executed. I know that was a mouthful. I just want you to get exposed to some of the terminology and how you might read this.
-
-###Solution
-If you have trouble with this lesson, you can check the solution:
+x:Int = 5
 ```
-git fetch upstream solution/1.3_hello_world
-git checkout -b solution/1.3_hello_world upstream/solution/1.3_hello_world
+The interpreter just took your input and recognizes that you initialized a variable __x__ which is of type __int__ and has a value of __5__. You can use the scala interpreter for many of the excercises in this lesson. It's also a neat way to make a quick little script that you just need to run once. To quit the scala interpreter, type
 ```
+:q
+```
+###Excercises
+This lesson will be given in the form of excercises. You will find a number of files in src/scala that will be prepended with a number. The first lesson will start with the number 1. Once you feel comfortable you have understood lesson 1, move on to the next file prepended 2 and repeat this process until you have completed all the excercises in the lesson.
 
 ###Next Lesson
 Now you're ready to move on to the next lesson where we'll get your computer set up to start programming! First, checkout the next lesson:
