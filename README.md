@@ -24,7 +24,14 @@ The interpreter just took your input and recognizes that you initialized a varia
 :q
 ```
 ###Excercises
-This lesson will be given in the form of excercises. You will find a number of files in src/scala that will be prepended with a number. The first lesson will start with the number 1. Once you feel comfortable you have understood lesson 1, move on to the next file prepended 2 and repeat this process until you have completed all the excercises in the lesson.
+You should find some files in src/main/scala. Each file will start with a number (starting from 1) and continue, along with an appropriate name for each.
+
+Each file will explain some concept and tell you what to do. For example, you should start with:
+src/main/scala/1 Comments
+
+This file will explain some things and then tell you which file to go to the next file:
+
+Typically (in a scala project), scala code will be housed in the src/main/scala/ directory. You'll want to open the file src/main/scala/HelloWorld.scala. This is the file that will hold the code for your first program.
 
 ###Next Lesson
 Now you're ready to move on to the next lesson where we'll get your computer set up to start programming! First, checkout the next lesson:
