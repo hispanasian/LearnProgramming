@@ -23,15 +23,13 @@ The interpreter just took your input and recognizes that you initialized a varia
 ```
 :q
 ```
-###Excercises
+###Examples
 You should find some files in src/main/scala. Each file will start with a number (starting from 1) and continue, along with an appropriate name for each.
 
 Each file will explain some concept and tell you what to do. For example, you should start with:
-src/main/scala/1 Comments
+src/main/scala/1_Comments.scala
 
 This file will explain some things and then tell you which file to go to the next file:
-
-Typically (in a scala project), scala code will be housed in the src/main/scala/ directory. You'll want to open the file src/main/scala/HelloWorld.scala. This is the file that will hold the code for your first program.
 
 ###Next Lesson
 Now you're ready to move on to the next lesson where we'll get your computer set up to start programming! First, checkout the next lesson:
